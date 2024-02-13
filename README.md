@@ -50,9 +50,8 @@ These files contain AMR data that can provide insight for doctors treating patie
 
 1) Create a function, called `previous_resistance` that accepts hospital number and antibiotic name as an input, and returns `TRUE` if patient has had antibiotic resistance to a specific antibiotic (provided by antibiotic name argument) at any time point within the dataset. Function should return `FALSE` if the patient does not have resistance to the antibiotic, or if the patient is not in the dataset (we assume they do not have resistance in this case).
 1) Use your model and `previous_resistance` function and create a dashboard/web frontend for a doctor to use. The doctor should input `patient_id` and an antibiotic name (ciprofloxacin, gentamicin or amoxicillin-clavulanic acid), and the algorithm should do the following:
-
-        * if the patient has resistance within the dataset to the antibiotic, then it should alert the doctor of this
-        * otherwise, if resistance to the agent is not present in the dataset, or the patient is not in the dataset, the algorithm should use the prediction model from above to predict the risk of `R` for the antibiotic, and return this prediction to the doctor. 
+    * if the patient has resistance within the dataset to the antibiotic, then it should alert the doctor of this
+    * otherwise, if resistance to the agent is not present in the dataset, or the patient is not in the dataset, the algorithm should use the prediction model from above to predict the risk of `R` for the antibiotic, and return this prediction to the doctor. 
 
 ## Hints
 
