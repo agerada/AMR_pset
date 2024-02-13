@@ -30,7 +30,7 @@ Data for this challenge is available in `data/`. You will find two `.csv` files:
 These files contain AMR data that can provide insight for doctors treating patients. Please perform the following tasks:
 
 1) Descriptive data analysis of patients and antibiotic resistance.
-1) Creat a model of your choice to predict AMR (i.e., antibiotics which are `R`). The specifics of your model are up to you, it could be a frequentist approach, bayesian approach, or machine learning approach. 'Black box' approaches are also fine. 
+1) Create a model of your choice to predict AMR (i.e., antibiotics which are `R`). The specifics of your model are up to you, it could be a frequentist approach, bayesian approach, or machine learning approach. 'Black box' approaches are also fine. 
 1) Develop an algorithm that determines whether each patient has had AMR to a particular antibiotic at any point in the past. For example:
 
         ```
