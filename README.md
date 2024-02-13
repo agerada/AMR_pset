@@ -9,6 +9,10 @@ Data for this challenge is available in `data/`. You will find two `.csv` files:
 
 `admissions.csv` has records of patients' admissions to hospital, specifically their AMR results. `patients.csv` has information on the patients. 
 
+## General instructions
+
+Please do not fork this repository or interact with it directly. 
+
 ## Data dictionary
 
 ### Admissions
@@ -55,6 +59,8 @@ These files contain AMR data that can provide insight for doctors treating patie
 
 ## Hints
 
-Please try to keep functions/objects modular, in reality datasets would have many more antibiotics, so we need to make sure code is generalisable. 
+Please try to keep functions/classes modular, in reality datasets would have many more antibiotics, so we need to make sure code is generalisable. 
 
 You can use any frameworks, modules or programming languages of your choice. We would like to see the code. 
+
+Consider unit testing of the `previous_resistance` function, and any other functions/classes as appropriate.
